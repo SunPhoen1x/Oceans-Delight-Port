@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 200,
+  "experience": 0.35,
+  "ingredient": [
+    "oceansdelight-port:stuffed_cod"
+  ],
+  "result": {
+    "count": 1,
+    "id": "oceansdelight-port:cooked_stuffed_cod"
+  }
+}

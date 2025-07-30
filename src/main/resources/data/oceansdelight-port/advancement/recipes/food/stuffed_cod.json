@@ -1,0 +1,76 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_brown_mushroom": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:brown_mushroom"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_cod": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cod"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_kelp": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:kelp"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_onion": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:crops/onion"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_rope": {
+      "conditions": {
+        "items": [
+          {
+            "items": "farmersdelight:rope"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "oceansdelight-port:stuffed_cod"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_kelp",
+      "has_cod",
+      "has_onion",
+      "has_brown_mushroom",
+      "has_rope"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "oceansdelight-port:stuffed_cod"
+    ]
+  }
+}

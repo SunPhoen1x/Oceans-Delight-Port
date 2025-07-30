@@ -1,5 +1,6 @@
-package com.phoen1x.blocks;
+package com.phoen1x.items.data;
 
+import com.phoen1x.blocks.ODBlocks;
 import com.phoen1x.items.ODItems;
 import net.fabricmc.fabric.api.client.datagen.v1.provider.FabricModelProvider;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_elder_guardian_slice": {
+      "conditions": {
+        "items": [
+          {
+            "items": "oceansdelight-port:elder_guardian_slice"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "oceansdelight-port:food/elder_guardian_roll"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_elder_guardian_slice"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "oceansdelight-port:food/elder_guardian_roll"
+    ]
+  }
+}

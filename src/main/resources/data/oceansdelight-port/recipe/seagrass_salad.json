@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:seagrass",
+    "minecraft:bowl"
+  ],
+  "result": {
+    "count": 1,
+    "id": "oceansdelight-port:seagrass_salad"
+  }
+}

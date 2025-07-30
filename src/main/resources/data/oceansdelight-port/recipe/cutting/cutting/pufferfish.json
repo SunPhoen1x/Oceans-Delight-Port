@@ -1,0 +1,23 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+
+    "minecraft:pufferfish"
+
+  ],
+  "result": [
+    {
+      "item": {
+        "count": 6,
+        "id": "oceansdelight-port:fugu_slice"
+      }
+    },
+    {
+      "item": {
+        "count": 1,
+        "id": "minecraft:bone_meal"
+      }
+    }
+  ],
+  "tool": "#c:tools/knife"
+}

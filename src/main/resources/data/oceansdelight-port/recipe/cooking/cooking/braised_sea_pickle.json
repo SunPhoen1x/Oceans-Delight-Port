@@ -1,0 +1,18 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "count": 1,
+    "id": "minecraft:bowl"
+  },
+  "experience": 0.35,
+  "ingredients": [
+    "minecraft:sea_pickle",
+    "minecraft:brown_mushroom",
+    "minecraft:brown_mushroom"
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 1,
+    "id": "oceansdelight-port:braised_sea_pickle"
+  }
+}

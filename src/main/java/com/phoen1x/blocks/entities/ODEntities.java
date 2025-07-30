@@ -1,6 +1,7 @@
-package com.phoen1x.blocks;
+package com.phoen1x.blocks.entities;
 
 import com.phoen1x.OceansDelightPort;
+import com.phoen1x.blocks.ODBlocks;
 import eu.pb4.polymer.core.api.block.PolymerBlockUtils;
 import eu.pb4.polymer.core.api.entity.PolymerEntityUtils;
 import net.fabricmc.fabric.api.object.builder.v1.block.entity.FabricBlockEntityTypeBuilder;

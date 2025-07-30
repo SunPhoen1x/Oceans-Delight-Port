@@ -1,7 +1,8 @@
 package com.phoen1x;
 
-import com.phoen1x.blocks.ODEntities;
+import com.phoen1x.blocks.entities.ODEntities;
 import com.phoen1x.blocks.ODBlocks;
+import com.phoen1x.items.data.ODLootTables;
 import com.phoen1x.items.ODItems;
 import eu.pb4.polymer.resourcepack.api.PolymerResourcePackUtils;
 import eu.pb4.polymer.resourcepack.extras.api.ResourcePackExtras;
@@ -20,6 +21,7 @@ public class OceansDelightPort implements ModInitializer {
 		ODItems.registerModItems();
 		ODBlocks.registerBlocks();
 		ODEntities.register();
+		ODLootTables.modifyLootTables();
 		if (PolymerResourcePackUtils.addModAssets(MOD_ID)) {
 			ResourcePackExtras.forDefault().addBridgedModelsFolder(id("block"), id("item"));
 		} else {

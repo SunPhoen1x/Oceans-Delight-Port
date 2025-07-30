@@ -1,0 +1,21 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "count": 1,
+    "id": "minecraft:bowl"
+  },
+  "experience": 0.35,
+  "ingredients": [
+    "oceansdelight-port:guardian",
+    "#c:crops/onion",
+    "#c:foods/cooked_egg",
+    "#c:foods/cooked_egg",
+    "#c:crops/tomato",
+    "#c:crops/tomato"
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 1,
+    "id": "oceansdelight-port:guardian_soup"
+  }
+}

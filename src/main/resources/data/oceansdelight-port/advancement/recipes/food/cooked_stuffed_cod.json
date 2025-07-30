@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "cooked_stuffed_cod": {
+      "conditions": {
+        "items": [
+          {
+            "items": "oceansdelight-port:stuffed_cod"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "oceansdelight-port:cooked_stuffed_cod"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "cooked_stuffed_cod"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "oceansdelight-port:cooked_stuffed_cod"
+    ]
+  }
+}

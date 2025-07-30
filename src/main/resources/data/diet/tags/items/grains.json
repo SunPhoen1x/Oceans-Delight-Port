@@ -1,0 +1,8 @@
+{
+  "replace": "false",
+  "values": [
+    "oceansdelight-port:fugu_roll",
+    "oceansdelight-port:elder_guardian_roll",
+    "oceansdelight-port:squid_rings"
+  ]
+}

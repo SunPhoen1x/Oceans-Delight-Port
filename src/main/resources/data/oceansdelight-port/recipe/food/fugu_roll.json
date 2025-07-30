@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+
+    "oceansdelight-port:fugu_slice",
+
+
+    "oceansdelight-port:fugu_slice",
+
+
+    "farmersdelight:cooked_rice"
+
+  ],
+  "result": {
+    "count": 1,
+    "id": "oceansdelight-port:fugu_roll"
+  }
+}

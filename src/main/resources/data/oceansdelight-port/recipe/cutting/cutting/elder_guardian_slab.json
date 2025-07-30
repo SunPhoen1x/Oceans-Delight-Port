@@ -1,0 +1,21 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    "oceansdelight-port:elder_guardian_slab"
+  ],
+  "result": [
+    {
+      "item": {
+        "count": 9,
+        "id": "oceansdelight-port:elder_guardian_slice"
+      }
+    },
+    {
+      "item": {
+        "count": 1,
+        "id": "minecraft:bone_meal"
+      }
+    }
+  ],
+  "tool": "#c:tools/knife"
+}

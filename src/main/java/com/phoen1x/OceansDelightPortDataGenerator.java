@@ -1,6 +1,6 @@
 package com.phoen1x;
 
-import com.phoen1x.blocks.ODModelProvider;
+import com.phoen1x.items.data.ODModelProvider;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 

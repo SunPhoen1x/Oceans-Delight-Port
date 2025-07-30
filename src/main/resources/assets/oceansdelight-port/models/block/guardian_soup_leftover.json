@@ -1,24 +1,41 @@
 {
-  "credit": "Made with Blockbench",
-  "parent": "block/block",
-  "textures": {
-    "tray_side": "farmersdelight:block/tray_bottom",
-    "particle": "farmersdelight:block/tray_pie_leftover",
-    "tray_top": "farmersdelight:block/tray_pie_leftover"
-  },
-  "elements": [
-    {
-      "name": "plate",
-      "from": [1, 0, 1],
-      "to": [15, 2, 15],
-      "faces": {
-        "north": {"uv": [1, 11, 15, 13], "texture": "#tray_side"},
-        "east": {"uv": [1, 11, 15, 13], "texture": "#tray_side"},
-        "south": {"uv": [1, 11, 15, 13], "texture": "#tray_side"},
-        "west": {"uv": [1, 11, 15, 13], "texture": "#tray_side"},
-        "up": {"uv": [1, 1, 15, 15], "texture": "#tray_top"},
-        "down": {"uv": [1, 1, 15, 15], "texture": "#tray_side", "cullface": "down"}
-      }
-    }
-  ]
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"texture_size": [80, 80],
+	"textures": {
+		"tray_side": "farmersdelight:block/tray_bottom",
+		"tray_top": "farmersdelight:block/tray_pie_leftover"
+	},
+	"elements": [
+		{
+			"name": "plate",
+			"from": [1, 0, 1],
+			"to": [15, 2, 15],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [-8, 0, -8]},
+			"faces": {
+				"north": {"uv": [1, 11, 15, 13], "texture": "#tray_side"},
+				"east": {"uv": [1, 11, 15, 13], "texture": "#tray_side"},
+				"south": {"uv": [1, 11, 15, 13], "texture": "#tray_side"},
+				"west": {"uv": [1, 11, 15, 13], "texture": "#tray_side"},
+				"up": {"uv": [1, 1, 15, 15], "texture": "#tray_top"},
+				"down": {"uv": [1, 1, 15, 15], "texture": "#tray_side", "cullface": "down"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "bone",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [
+				{
+					"name": "plate",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"children": [0]
+				}
+			]
+		}
+	]
 }
