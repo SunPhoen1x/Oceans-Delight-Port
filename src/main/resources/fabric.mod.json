@@ -3,13 +3,13 @@
 	"id": "oceansdelight-port",
 	"version": "${version}",
 	"name": "OceansDelight-Port",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Polymer Port of Ocean's Delight.",
 	"authors": [
 		"Sun_Phoen1x"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://discord.gg/SRUMPPWcvF",
+		"sources": "https://github.com/SunPhoen1x/Oceans-Delight-Port"
 	},
 	"license": "MIT",
 	"icon": "assets/oceansdelight-port/icon.png",

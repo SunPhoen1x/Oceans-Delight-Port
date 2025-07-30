@@ -16,7 +16,7 @@ import java.util.function.Function;
 
 public class ODBlocks {
 
-    public static final Block GUARDIAN_SOUP = registerBlock("guardian_soup", GuardianSoupBlock::new, Block.Settings.copy(Blocks.LANTERN));
+    public static final Block GUARDIAN_SOUP = registerBlock("guardian_soup", GuardianSoupBlock::new, Block.Settings.copy(Blocks.IRON_BLOCK));
     public static final BlockItem GUARDIAN_SOUP_ITEM = registerBlockItem("guardian_soup", settings -> new TexturedPolyBlockItem(GUARDIAN_SOUP , settings), new Item.Settings());
 
     public static void registerBlocks() {
